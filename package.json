@@ -1,7 +1,7 @@
 {
+  "private": true,
   "name": "alpp",
   "version": "0.0.0",
-  "description": "",
   "main": "index.js",
   "devDpendencies": {
     "mdx-deck": "^4.1.0"
@@ -9,9 +9,9 @@
   "dependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "mdx-deck deck.mdx -p 3030"
+    "start": "mdx-deck deck.mdx -p 3030",
+    "build": "mdx-deck build deck.mdx"
   },
-  "keywords": [],
   "author": "Robin Millette <robin@millette.info> (http://robin.millette.info/)",
   "license": "AGPL-3.0",
   "devDependencies": {
