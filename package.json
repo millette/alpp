@@ -15,6 +15,7 @@
   "author": "Robin Millette <robin@millette.info> (http://robin.millette.info/)",
   "license": "AGPL-3.0",
   "devDependencies": {
+    "gatsby-source-filesystem": "^2.1.48",
     "mdx-deck": "^4.1.0"
   }
 }
